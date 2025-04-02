@@ -12,6 +12,8 @@ namespace StudentRegistration.DTO
 
     public class AttendanceDetailDto
     {
+        internal string FacultyName;
+
         public int StudentId { get; set; }
 
         public string StudentName { get; set; }

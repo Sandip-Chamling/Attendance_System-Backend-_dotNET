@@ -7,6 +7,8 @@ namespace StudentRegistration.Models
 {
     public class Student
     {
+        internal readonly string? Name;
+
         [Key]
         public int Id { get; set; }
         public string FirstName { get; set; }
